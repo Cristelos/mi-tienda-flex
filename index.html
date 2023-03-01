@@ -14,40 +14,42 @@
 
 <body>
     <header>
-        <!--LOGO-->
+        <!--primer contenedor header-->
+            <ul class="menu-principal">
+                <li class="menu-principal__item">MUJER</li>
+                <li class="menu-principal__item">HOMBRE</li>
+            </ul>
+        <!--TERMINA contenedor header-->
+        <!--segundo contenedor header-->
         <div class="contenedor-logo">
-            <a href="index.html"><img src="./img/logo.png" /></a>
+            <h1>MI_TIENDA</h1>
+            <div class="migas-de-pan">
+                <p><span class="migas-de-pan__active">Mujer</span> ><span class="migas-de-pan__active"> Ropa</span>
+                    ><span class="migas-de-pan__active"> Camisetas</span> > Licencias (51 Artículos)</p>
+            </div>
         </div>
-        <!--TERMINA LOGO-->
-        <!--EMPIEZA MENÚ-->
-        <nav class="menu-principal">
-            <div class="menu-principal__item"><a href="">MUJER</a></div>
-            <div class="menu-principal__item"><a href="">HOMBRE</a></div>
-        </nav>
+        <!--TERMINA contenedor header-->
+        <!--Tercer ccontenedor header-->
         <div class="menu-principal__derecho">
-                <div class="menu-principal__item">
-                    <img src="https://img.icons8.com/ios-glyphs/512/search--v1.png" alt="lupa de búsqueda"
-                        class="icono" />
-                    <form>
-                        <input type="search" placeholder="Buscar" />
-                    </form>
-                </div>
-                <div class="menu-principal__item">
-                    <img src="https://img.icons8.com/ios-glyphs/512/gender-neutral-user.png" alt="Icono para usuario"
-                        class="icono" />
-                </div>
-                <div class="menu-principal__item">
-                    <img src="https://img.icons8.com/ios-glyphs/512/shopping-cart.png" alt="Icono carrito"
-                        class="icono" />
-                </div>
+            <div class="menu-principal__item buscador">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        clip-rule="evenodd" />
+                </svg>
+                <form>
+                    <input type="search" placeholder="Buscar" class="input"/>
+                </form>
+            </div>
+            <div class="menu-principal__item">
+                <img src="https://img.icons8.com/ios-glyphs/512/gender-neutral-user.png" alt="Icono para usuario"
+                    class="icono" />
+            </div>
+            <div class="menu-principal__item">
+                <img src="https://img.icons8.com/ios-glyphs/512/shopping-cart.png" alt="Icono carrito" class="icono" />
+            </div>
         </div>
-        
-        <!--TERMINA MENÍ-->
-        <!--EMPIEZA MIGA DE PAN-->
-        <div class="migas-de-pan">
-            <p>Mujer > Ropa > Camisetas > Licencias (51 Artículos)</p>
-        </div>
-        <!--TERMINA MIGA DE PAN-->
+        <!--TERMINA contenedor header-->
     </header>
     <main>
         <!--EMPIEZA GALERÍA-->
@@ -344,62 +346,70 @@
                     <li>Modificaciones de datos y pedidos</li>
                 </ul>
             </div>
-            <div class="links-interes__columna"><div class="links-interes__columna">
-                <h6>Guía de compra</h6>
-                <ul>
-                    <li>Preguntas frecuentes</li>
-                    <li>Pago</li>
-                    <li>Envío</li>
-                    <li>Devoluciones</li>
-                    <li>Cambios</li>
-                    <li>Ticket Regalo</li>
-                    <li>Compra a través de IPod en Tienda</li>
-                    <li>Disponibilidad de artículos</li>
-                    <li>Modificaciones de datos y pedidos</li>
-                </ul>
-            </div></div>
-            <div class="links-interes__columna"><div class="links-interes__columna">
-                <h6>Guía de compra</h6>
-                <ul>
-                    <li>Preguntas frecuentes</li>
-                    <li>Pago</li>
-                    <li>Envío</li>
-                    <li>Devoluciones</li>
-                    <li>Cambios</li>
-                    <li>Ticket Regalo</li>
-                    <li>Compra a través de IPod en Tienda</li>
-                    <li>Disponibilidad de artículos</li>
-                    <li>Modificaciones de datos y pedidos</li>
-                </ul>
-            </div></div>
-            <div class="links-interes__columna"><div class="links-interes__columna">
-                <h6>Guía de compra</h6>
-                <ul>
-                    <li>Preguntas frecuentes</li>
-                    <li>Pago</li>
-                    <li>Envío</li>
-                    <li>Devoluciones</li>
-                    <li>Cambios</li>
-                    <li>Ticket Regalo</li>
-                    <li>Compra a través de IPod en Tienda</li>
-                    <li>Disponibilidad de artículos</li>
-                    <li>Modificaciones de datos y pedidos</li>
-                </ul>
-            </div></div>
-            <div class="links-interes__columna"><div class="links-interes__columna">
-                <h6>Guía de compra</h6>
-                <ul>
-                    <li>Preguntas frecuentes</li>
-                    <li>Pago</li>
-                    <li>Envío</li>
-                    <li>Devoluciones</li>
-                    <li>Cambios</li>
-                    <li>Ticket Regalo</li>
-                    <li>Compra a través de IPod en Tienda</li>
-                    <li>Disponibilidad de artículos</li>
-                    <li>Modificaciones de datos y pedidos</li>
-                </ul>
-            </div></div>
+            <div class="links-interes__columna">
+                <div class="links-interes__columna">
+                    <h6>Guía de compra</h6>
+                    <ul>
+                        <li>Preguntas frecuentes</li>
+                        <li>Pago</li>
+                        <li>Envío</li>
+                        <li>Devoluciones</li>
+                        <li>Cambios</li>
+                        <li>Ticket Regalo</li>
+                        <li>Compra a través de IPod en Tienda</li>
+                        <li>Disponibilidad de artículos</li>
+                        <li>Modificaciones de datos y pedidos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="links-interes__columna">
+                <div class="links-interes__columna">
+                    <h6>Guía de compra</h6>
+                    <ul>
+                        <li>Preguntas frecuentes</li>
+                        <li>Pago</li>
+                        <li>Envío</li>
+                        <li>Devoluciones</li>
+                        <li>Cambios</li>
+                        <li>Ticket Regalo</li>
+                        <li>Compra a través de IPod en Tienda</li>
+                        <li>Disponibilidad de artículos</li>
+                        <li>Modificaciones de datos y pedidos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="links-interes__columna">
+                <div class="links-interes__columna">
+                    <h6>Guía de compra</h6>
+                    <ul>
+                        <li>Preguntas frecuentes</li>
+                        <li>Pago</li>
+                        <li>Envío</li>
+                        <li>Devoluciones</li>
+                        <li>Cambios</li>
+                        <li>Ticket Regalo</li>
+                        <li>Compra a través de IPod en Tienda</li>
+                        <li>Disponibilidad de artículos</li>
+                        <li>Modificaciones de datos y pedidos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="links-interes__columna">
+                <div class="links-interes__columna">
+                    <h6>Guía de compra</h6>
+                    <ul>
+                        <li>Preguntas frecuentes</li>
+                        <li>Pago</li>
+                        <li>Envío</li>
+                        <li>Devoluciones</li>
+                        <li>Cambios</li>
+                        <li>Ticket Regalo</li>
+                        <li>Compra a través de IPod en Tienda</li>
+                        <li>Disponibilidad de artículos</li>
+                        <li>Modificaciones de datos y pedidos</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!--Termina links de interés-->
     </footer>
