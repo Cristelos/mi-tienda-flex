@@ -40,7 +40,7 @@ div.menu-principal__derecho > div:nth-child(3) > img{
 h1{
     font-weight: 600;
     font-size: 39px;
-    margin-bottom: 10px;
+        margin-bottom: 10px;
 }
 
 .migas-de-pan {
@@ -71,14 +71,22 @@ svg.input-icon {
     width: 17px;
 }
 
+.subtexto {
+    text-align: right;
+    margin-right: 127px;
+    margin-top: -42px;
+    font-size: 11px;
+}
+
 .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    margin-left: 3%;
 }
 
 .producto {
-    max-width: 320px;
+    max-width: 300px;
     padding: 15px;
 }
 
